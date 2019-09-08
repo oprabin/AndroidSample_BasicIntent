@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">workshopApp</string>
     <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+
+    <string name="button1">Implicit Intent</string>
+    <string name="button2">Explicit Intent</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string name="welcomeMessage">Welcome to second activity</string>
+
+
+
+
+
 </resources>
