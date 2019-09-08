@@ -58,7 +58,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
+                android:layout_weight="0.3"
                 android:layout_marginLeft="16dp"
                 android:background="@color/colorAccent"
                 android:id="@+id/buttonOne"
@@ -71,7 +71,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
+                android:layout_weight="0.3"
                 android:layout_marginLeft="16dp"
                 android:background="@color/colorAccent"
                 android:layout_marginRight="16dp"
@@ -80,6 +80,21 @@
                 android:textColor="@color/white"
                 android:text="@string/button2"
                 />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="16dp"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="16dp"
+            android:id="@+id/buttonThree"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/button3"
+            />
+
+
 
     </LinearLayout>
 

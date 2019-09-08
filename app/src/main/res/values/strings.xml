@@ -8,13 +8,12 @@
 
     <string name="button1">Implicit Intent</string>
     <string name="button2">Explicit Intent</string>
+    <string name="button3">News feed</string>
     <string name="title_activity_main2">Main2Activity</string>
 
 
     <string name="welcomeMessage">Welcome to second activity</string>
-
-
-
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
 
 
 </resources>

@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     EditText editName, editAddress, editPhone, editEmail;
-    Button buttonOne, buttonTwo;
+    Button buttonOne, buttonTwo, buttonThree;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
         buttonOne = (Button) findViewById(R.id.buttonOne);
         buttonTwo = (Button) findViewById(R.id.buttonTwo);
+        buttonThree = (Button) findViewById(R.id.buttonThree);
+
 
         buttonOne.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        buttonThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 
